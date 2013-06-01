@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.1.0/pure-min.css">
 
-		<link rel="stylesheet" href="rss.css">
+		<link rel="stylesheet" href="css/rss.css">
 
 		<script src="http://use.typekit.net/ajf8ggy.js"></script>
 		<script>
@@ -43,13 +43,13 @@
 								Feeds
 							</li>
 							<li>
-								<a href="#"><span class="email-label-personal"></span>Techcrunch</a>
+								<a href="javascript:;" onclick="load_rss_feed('Techcrunch')"><span class="email-label-personal"></span>Techcrunch</a>
 							</li>
 							<li>
-								<a href="#"><span class="email-label-work"></span>AVC</a>
+								<a href="javascript:;" onclick="load_rss_feed('AVC')"><span class="email-label-work"></span>AVC</a>
 							</li>
 							<li>
-								<a href="#"><span class="email-label-travel"></span>Venturebeat</a>
+								<a href="javascript:;" onclick="load_rss_feed('Venturebeat')"><span class="email-label-travel"></span>Venturebeat</a>
 							</li>
 						</ul>
 					</div>
@@ -61,7 +61,7 @@
 					
 				</div>
 				
-				<div class="content pure-u">
+				<div id="item-list" class="content pure-u">
 					<div class="email-item email-item-selected pure-g">
 						<div class="pure-u">
 							<img class="email-avatar" alt="Tilo Mitra's avatar" src="http://api.twitter.com/1/users/profile_image?screen_name=tilomitra&amp;size=bigger" height="65" width="65">
@@ -208,4 +208,8 @@
 		</div>
 
 	</body>
+	<script src="http://nimbusbase.com/static/nimbus.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/md5.min.js"></script>
+	<script src="js/action.js"></script>
 </html>
