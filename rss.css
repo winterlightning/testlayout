@@ -8,7 +8,7 @@ a {
 
 /* LAYOUT CSS */
 #layout {
-    padding-left: 350px; /* "left col (nav + list)" width */
+    padding-left:500px; /* "left col (nav + list)" width */
     position: relative;
 }
 
@@ -21,14 +21,14 @@ a {
 #nav {
     margin-left:-500px; /* "left col (nav + list)" width */
     width:150px;
-    background: rgb(37, 42, 58);
+    background: #22262e;
     text-align: center;
     padding: 2em 0;
 }
 
 #list {
     margin-left: -350px;
-    width: 350px;
+    width:350px;
     border-right: 1px solid #ddd;
 }
 
@@ -43,8 +43,8 @@ a.primary-button, a.secondary-button {
     box-shadow: none;
 }
 a.primary-button {
-    color: #fff;
-    background: #1b98f8;
+    color: whitesmoke;
+    background: rgba(0,0,0,0.2);
     margin: 1em 0;
 }
 a.secondary-button {
@@ -131,7 +131,7 @@ a.secondary-button {
     }
 
 .email-item-selected {
-    background: #fff;
+    background: #eee;
 }
 .email-item-unread {
     border-left: 6px solid #02a3c6;
@@ -139,7 +139,7 @@ a.secondary-button {
 
 /* Email Content Styles */
 .email-content-header, .email-content-body, .email-content-footer {
-    padding: 1em 20px;
+    padding: 1em 2em;
 }
     .email-content-header {
         border-bottom: 1px solid #ddd;
@@ -219,34 +219,4 @@ a.secondary-button {
         width: 40px;
         height: 40px;
     }
-}
-
-
-/*top bar*/
-#side-top {
-	height: 44px;
-	display: block;
-	border-bottom: 1px solid #ddd;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	width: 350px;
-	background: linear-gradient(#fff, #eee);	
-}
-
-#middle-top {
-	height: 44px;
-	display: block;
-	border-bottom: 1px solid #ddd;
-	position: fixed;
-	top: 0px;
-	left: 350px;
-	width: 100%;
-	background: #eee;		
-	PADDING-LEFT: 350px;
-	margin-left: 1px;
-}
-
-#list .content {
-	margin-top: 45px;
 }
