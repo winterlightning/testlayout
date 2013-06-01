@@ -64,7 +64,7 @@ a.secondary-button {
     text-align: left;
 }
     #nav .pure-menu a:hover {
-        background: rgb(55, 60, 90);
+        background: rgba(0,0,0,0.1);
     }
     #nav .pure-menu a {
         color: #fff;
